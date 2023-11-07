@@ -1,0 +1,46 @@
+.form-layout {
+    display: flex;
+    justify-content: left;
+}
+
+.form-group {
+    margin: 0 0 1rem 0;
+}
+
+.form-group label {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.form-group input {
+    height: 25px;
+    color: #000;
+    transition: .3s;
+}
+
+/* .form-group input:active {
+    background: #000;
+} */
+
+.form-group input:focus {
+    background: #000;
+    color: #fff;
+}
+
+.form-group input:hover {
+    padding: 0 10rem 0 0;
+}
+
+form button {
+    background: #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form button:hover {
+    padding: 5rem 10rem;
+    background: #fff;
+    color: #000;
+    font-size: 3rem;
+    font-weight: 900;
+}
